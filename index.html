@@ -256,7 +256,6 @@
                     </p>
                 </div>
         </article>
-        <!---------------
         <article class="testimonial swiper-slide">
             <div class="avatar">
                 <img src="./images/IMG.JPG" alt="">
@@ -317,8 +316,8 @@
                     </p>
                 </div>
         </article>
-        -------------->
     </div>
+    <div class="swiper-pagination"></div>
 </section> 
 
 <!---------------FOOTER SECTION --------------------------->
@@ -389,6 +388,11 @@
         el: ".swiper-pagination",
         clickable: true,
       },
+      breakpoint: {
+        600: {
+            slidesPerView: 2
+        }
+      }
     });
     </script>
 </body>
