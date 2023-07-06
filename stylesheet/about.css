@@ -61,7 +61,7 @@
     gap: 2rem;
 }
 .team__member {
-    background: var(--color-bg2);
+    background: var(--color-success);
     padding: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);

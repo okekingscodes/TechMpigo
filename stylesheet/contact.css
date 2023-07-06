@@ -16,7 +16,7 @@
 }
 /*-------Aside style --------*/
 .contact__aside {
-    background: var(--color-primary);
+    background: var(--color-success);
     padding: 3rem;
     border-radius: 1rem;
     position: relative;
