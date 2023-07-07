@@ -1,0 +1,11 @@
+
+
+/*----------BLOG SECTION----------------*/
+.blog__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog__container img {
+    height: 600px;
+}

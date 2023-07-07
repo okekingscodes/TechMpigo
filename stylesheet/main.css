@@ -259,7 +259,7 @@ header {
 
 .course:hover {
     background: transparent;
-    border-color: var(--color-primary);
+    border-color: var(--color-success);
 }
 .course__info {
     padding: 2rem;
@@ -273,6 +273,16 @@ header {
     height: 100%;
     width: 100%;
 }
+
+/*----------ADVERT SECTION----------------*/
+.advert {
+    height: 150px;
+    background: #c0c0c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*----------FAQS SECTION----------------*/
 .faqs {
     background: var(--color-bg1);
