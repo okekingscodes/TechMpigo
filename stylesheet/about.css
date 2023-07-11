@@ -33,7 +33,7 @@
     box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
 }
 .achievement__icon {
-    background: var(--color-danger);
+    background: var(--color-success);
     padding: 0.6rem;
     border-radius: 1rem;
     display: inline-block;
@@ -58,6 +58,13 @@
 }
 .statement__container p {
     text-align: justify;
+}
+.mission img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
 }
 /* --------- Adding CSS to the Team sections-----------*/
 .team {

@@ -245,6 +245,7 @@ header {
 .courses__container .view-more {
     text-align: center;
     margin-left: 140%;
+    margin-top: 3rem;
 }
 .courses__container .view-more a {
     width: 150px;
@@ -274,6 +275,21 @@ header {
     width: 100%;
 }
 
+/*----------PARTNERS SECTION----------------*/
+.partners__container {
+    margin-bottom: 5rem;
+    height: 200px;
+}
+.partner-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.partner-logo img {
+    width: 120px;
+    height: 120px;
+}
 /*----------ADVERT SECTION----------------*/
 .advert {
     height: 150px;
@@ -325,7 +341,7 @@ header {
 .testimonials__container {
     overflow: hidden;
     position: relative;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .testimonial {
@@ -391,6 +407,8 @@ footer {
 }
 .footer__socials {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     font-size: 1.2rem;
     margin-top: 2rem;
@@ -468,7 +486,7 @@ footer {
             }
         }
         .nav__menu li a {
-            background: var(--color-primary);
+            background: var(--color-success);
             box-shadow: -4rem 6rem 10rem rgba(0,0,0,0.6);
             width: 100%;
             height: 100%;
@@ -477,7 +495,7 @@ footer {
         }
 
         .nav__menu li a:hover {
-            background: var(--color-bg2);
+            background: var(--color-bg);
             color: var(--color-white);
         }
 
